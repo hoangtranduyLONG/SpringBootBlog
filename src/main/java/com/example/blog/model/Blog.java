@@ -19,7 +19,6 @@ public class Blog {
     @ManyToOne
     @JsonManagedReference(value = "category-blog")
     private Category category;
-
     public Blog() {
     }
 
